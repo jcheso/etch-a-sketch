@@ -1,12 +1,17 @@
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 
 .container{
-    display: flex;
+    display: flex; 
     flex-wrap: wrap;
+
+    /* border-style: solid;
+    border-color: black; */
+
 }
 
 .grid-element{
@@ -17,11 +22,14 @@ body{
 
 .grid-element-hover{
     background-color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
 }
 
 .button-wrapper{
     justify-content: center;
-    position: fixed;
+    text-align: center;
+
 }
 .button {
     border: none;
